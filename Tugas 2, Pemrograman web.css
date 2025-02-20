@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.navbar {
+    background-color: rgb(52, 52, 138);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+}
+
+.polindra {
+    font-weight: bold;
+    color: white;
+    margin: 25px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 17px;
+    display: flex;
+    margin-left: 15%;
+    padding: 30px;
+    gap: 50px;
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: white;
+    color:rgb(52, 52, 138);
+}
+
+/* judul */
+.judul {
+    text-align: center;
+    margin: 30px;
+}
+
+/* gambar */
+.gambar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    width: 90%;
+    height: 450px;
+}
+
+/* artikel */
+.artikel {
+    margin: 35px;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* list */
+.list {
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+.list1 {
+    margin: 20px;
+}
